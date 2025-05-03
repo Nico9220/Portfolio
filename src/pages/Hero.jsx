@@ -4,7 +4,8 @@ const Hero = () => {
   return (
     <section
       id="inicio"
-      className="h-screen bg-gray-900 text-white flex items-center justify-center"
+      className="h-screen bg-gray-900 text-white flex items-center justify-center bg-gradient-to-br from-[#1f002b] via-[#2b0d3a] to-[#0f051d]
+"
     >
       <div className="text-center px-4 max-w-2xl">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">

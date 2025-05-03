@@ -18,12 +18,12 @@ const Proyectos = () => {
     ];
   
     return (
-      <section id="proyectos" className="bg-gray-900 text-white py-20 px-6">
+      <section id="proyectos" className="bg-gray-900 text-white py-20 px-6 bg-gradient-to-bl from-[#0a0f3c] via-[#1f002b] to-[#1b0f24]">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-12">Proyectos</h2>
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 ">
             {proyectos.map((proyecto, index) => (
-              <div key={index} className="bg-gray-800 p-6 rounded-lg shadow hover:shadow-lg transition">
+              <div key={index} className="bg-gray-800 p-6 rounded-lg shadow hover:shadow-lg transition bg-white/5 backdrop-blur-md rounded-xl shadow-lg p-6 hover:scale-[1.02] transition-all">
                 <h3 className="text-xl font-semibold mb-2">{proyecto.titulo}</h3>
                 <p className="text-gray-300 mb-4">{proyecto.descripcion}</p>
                 <div className="text-sm text-gray-400 mb-4">

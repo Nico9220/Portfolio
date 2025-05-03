@@ -1,6 +1,7 @@
 const Contacto = () => {
     return (
-      <section id="contacto" className="bg-gray-800 text-white py-20 px-6">
+      <section id="contacto" className="bg-gray-800 text-white py-20 px-6 bg-gradient-to-r from-[#2b0d3a] via-[#1f002b] to-[#0f051d]
+">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Contacto</h2>
           <p className="text-lg text-gray-300 mb-6">
