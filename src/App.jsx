@@ -8,6 +8,7 @@ import Hero from './pages/Hero'
 import SobreMi from './components/SobreMi/SobreMi'
 import Proyectos from './components/Proyectos/Proyectos'
 import Contacto from './pages/Contacto'
+import Footer from './components/Footer/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,7 +25,7 @@ function App() {
         
         <Contacto/> */}
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }
